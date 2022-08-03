@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Project</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div id="search">
+        <input class="input" type="search" name="q" placeholder="what are you looking for today">
+        <button class="searchbutton">Search</button> 
+        
+    </div>
+    <div class="navbar">
+        <nav>
+            <a href="/"> <img src="logo.jpeg" alt="logo" style="height: 30px; width: 40px;"> </a>
+            <a href="/" class="anchortag">Home </a>
+          <a href="/" class="anchortag">Heart Issues</a>
+          <a href="/" class="anchortag"> Heart Problem Symptoms</a>
+          <a href="/" class="anchortag">About Us</a>
+          <a href="/" class="anchortag">Contact Us </a>  
+        </nav>
+        
+    </div>
+    <div class="colorbar"></div>
+    <div class="hr"> <hr></div>
+
+    <section class="mid">
+            <div class="content">
+                <form action="/">
+                    <h1 style="text-align: center;">Registration Form</h1>
+                    <div>
+                        <label for="name">Patient Name:</label>
+                    <input id="name" type="text" placeholder="Enter First Name"></div><br>
+                    <div>
+                        <label for="secondname">Patient Second Name:</label>
+                        <input id="secondname" type="text" placeholder="Enter Second Name">
+                    </div> <br>
+                    <div>
+                        <label for="address">Address:</label>
+                        <input id="address" type="text" placeholder="Enter Patient Address">
+                    </div> <br>
+                    <div style="display: flex; padding-right: 20px;">
+                        <label for="city"> City:</label>
+                        <input id="city" type="text" placeholder="City"> 
+                        
+                        <label for="province">Province:</label>
+                        <input id="province" type="text" placeholder="province/state">
+                    </div> <br>
+                    <div>
+                        <label for="country">Select your Country:</label>
+                        <select name="country" id="country">
+                          <option value="Pakistan">Pakistan</option>
+                          <option value="bangladesh">Bangladesh</option>
+                          <option value="china">China</option>
+                          <option value="afghanistan">Afghanistan</option>
+                        </select>
+                    </div> <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="abc@gmail.com">
+                    </div> <br> <br>
+                    <button class="button">Submit</button>
+                
+                </form>
+            </div>
+            <div class="content" >
+                <img class="image" src="1.webp" alt="Body Pic">
+            </div>
+
+    </section>
+       <div class="para">
+           <p>Our scalable MUSE™ Cardiology Information System integrates, manages, and streamlines
+                the flow of cardiac information, enabling faster data delivery, distribution   and<br> analysis. 
+                The system provides physicians with access to patients' ECG information 
+               while streamlining workflow. This helps support informed decisions and high quality of care.</p>
+       </div>
+       <div class="paraimg" >
+           <div>
+                <h3>Managing knowledge for better results.</h3>
+                <p>The MUSE Cardiology Information System is more than a database management system:
+                     through seamless connectivity with resting ECG, exercise ECG, or Holter acquisition devices. 
+                     MUSE integrates, manages, and streamlines the flow of cardiac information, enabling faster data delivery
+                     , distribution and analysis. In conjunction with the MAC VU360™, the latest version of MUSE provides enhanced
+                     workflow in the Emergency Department and pacemaker annotation capability.</p>
+                     <p>MUSE supports your facility's bottom line, too. Improved billing processes help capture revenue.
+                          Bi-directional communication between your Hospital Information System (HIS), Electronic Medical Records 
+                          (EMR) and ECG devices fosters enhanced workflow efficiencies throughout your healthcare facility, for 
+                          better patient flow and faster reporting. And it's all supported by a dedicated team of experts who are
+                           ready to help you maximize the value of your investment.</p>
+           </div>
+           <div> 
+               <img src="4.webp" alt="image">
+           </div>
+       </div>
+       <footer class="footer">
+           <h1> Thanks for Visitng Our Website</h1>
+           <h3>For More Queries </h3>
+           <a class="footera" href="mailto:sherazshabbir0300@gmail.com" > Contact us on Gmail</a>
+           <p>http://www.CardiologyCenter.com</p>
+       </footer>
+</body>
+</html>
